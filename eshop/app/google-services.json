@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "949397032754",
+    "firebase_url": "https://seismic-aloe-340714-default-rtdb.firebaseio.com",
+    "project_id": "seismic-aloe-340714",
+    "storage_bucket": "seismic-aloe-340714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949397032754:android:ec4310229951da7649912b",
+        "android_client_info": {
+          "package_name": "com.fyp.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949397032754-5gt181eoje67sq0o3b5pjae7tf94ni56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbfvhOfdP5ndY0RK7qkfBwxTywq6xi5_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949397032754-5gt181eoje67sq0o3b5pjae7tf94ni56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

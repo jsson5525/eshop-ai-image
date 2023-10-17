@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable-v24/ic_sort_view_focus_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable-v24/loading_shape.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable-v24/rounded_edittext_green.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable-v24/rounded_edittext_red.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/gradient.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_baseline_sell_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_expand_less_24.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_photo_camera_24.xml" value="0.22456140350877193" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_profile_24.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_shopping_cart_24.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_sort_price_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_sort_price_focus_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_sort_sell_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_sort_view_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/ic_sort_view_focus_24.xml" value="0.19298245614035087" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/line.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/line_gray.xml" value="0.3223684210526316" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/drawable/textlines.xml" value="0.2" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_home_cust.xml" value="0.2776268115942029" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_image_search.xml" value="0.21096491228070174" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_order_details.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_order_history.xml" value="0.23505434782608695" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_payment_method.xml" value="0.2477355072463768" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_product_info.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_product_info_nc.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/activity_user_profile.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/cart_fragment.xml" value="0.17280701754385966" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/custom_dialog.xml" value="0.22327898550724637" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_dashboard.xml" value="0.2105978260869565" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_item_list.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_notifications.xml" value="0.271286231884058" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/fragment_search.xml" value="0.2740036231884058" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/item_cat.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/item_image_nested.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/item_nested.xml" value="0.2776268115942029" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/orders_list.xml" value="0.33" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/recycle_item.xml" value="0.271286231884058" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/shopping_cart.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/layout/swipe_cart_item.xml" value="0.25" />
+        <entry key="..\:/SCOPE CS/FYP_APP/eshop/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

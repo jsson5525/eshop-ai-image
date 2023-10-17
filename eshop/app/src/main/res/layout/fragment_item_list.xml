@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.itemlist.ItemListFragment">
+
+    <TextView
+        android:id="@+id/tv_itemlist_cat_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:textAlignment="center"
+        android:textColor="#3049D3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_item_list"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemlist_cat_desc">
+
+        <ImageButton
+            android:id="@+id/imgBtn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_sort_view_24" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sort_price_24" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_sort_sell_24" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemlist_recycleview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_item_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

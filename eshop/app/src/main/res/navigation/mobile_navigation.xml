@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.fyp.eshop.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_itemListFragment"
+            app:destination="@id/navigation_itemList" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.fyp.eshop.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_itemList"
+        android:name="com.fyp.eshop.ui.itemlist.ItemListFragment"
+        android:label="Product List"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.fyp.eshop.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.fyp.eshop.ui.cart.CartFragment"
+        android:label="Shopping Cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_navigation_cart_to_paymentMethodPayActivity"
+            app:destination="@id/paymentMethodPayActivity"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.fyp.eshop.ui.userprofile.ProfileFragment"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/paymentMethodPayActivity"
+        android:name="com.fyp.eshop.PaymentMethodPayActivity"
+        android:label="PaymentMethodPayActivity" />
+
+
+</navigation>

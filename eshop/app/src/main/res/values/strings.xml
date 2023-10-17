@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">E-Shop</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_logout">Log Out</string>
+    <string name="welcome">Welcome to E-Shop !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="register">Register</string>
+    <string name="family_name">Family Name</string>
+    <string name="given_name">Given Name</string>
+    <string name="phone_no">Phone No</string>
+
+    <string name="search_name">Search By Product Name</string>
+    <string name="please_select_quantity">Please select Quantity</string>
+
+    <string name="selling_price">Selling Price</string>
+    <string name="market_price">Market Price</string>
+    <string name="category">Category :</string>
+    <string name="sold">Sold :</string>
+    <string name="view">View</string>
+
+    <string name="please_upload_image">Please Upload Image</string>
+    <string name="suggest_list">Suggest List</string>
+
+    <string name="promo_code">Promo Code</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="my_order">My Order</string>
+    <string name="my_payment">Payment Method</string>
+    <string name="payment_amount">Payment Amount</string>
+
+    <string name="card_num">Card Number</string>
+
+    <string name="order_details">Order Details</string>
+    <string name="order_date">Order Date</string>
+    <string name="order_number">Order Number</string>
+    <string name="order_status">Status</string>
+    <string name="order_item">Order Item</string>
+    <string name="order_history">My Orders</string>
+    <string name="order_price">Price</string>
+    <string name="origin_price">Price</string>
+    <string name="discount">Discount</string>
+    <string name="total_price">Total</string>
+
+    <string name="personal_info">Personal Information</string>
+    <string name="personal_info_short">Personal Info</string>
+    <string name="login_info">Login Info</string>
+    <string name="email_address">Email Address</string>
+    <string name="rest_pwd">Rest Pwd</string>
+
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.search.SearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_search_main"
+            android:layout_width="258dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edittext_blue"
+            android:hint="@string/search_name"
+            android:paddingLeft="20dp"
+            android:textColorHint="#999999"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_search_main"
+            android:layout_width="58dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search_icon"
+            app:layout_constraintEnd_toStartOf="@+id/imgBtn_camera"
+            app:layout_constraintStart_toEndOf="@+id/et_search_main"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_camera"
+            android:layout_width="58dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/camera_search_layout"
+        android:layout_width="0dp"
+        android:layout_height="230dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <ImageButton
+            android:id="@+id/imgBtn_hide"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="353dp"
+            android:layout_marginTop="206dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_expand_less_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_recycleview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_search_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
